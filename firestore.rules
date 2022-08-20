@@ -1,0 +1,15 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+  	
+    /*** DÉBUT ****************************************************************/
+    /* EF : Café rouge */
+    
+    match /caferouge/{document=**} {
+ 			allow read: if true;
+		}
+    
+    /*** FIN ******************************************************************/
+    
+  }
+}

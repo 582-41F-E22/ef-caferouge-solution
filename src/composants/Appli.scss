@@ -1,0 +1,39 @@
+.Appli {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+
+  header {
+    padding-top: 50px;
+    .logo {
+      color: #900;
+      h3 {
+        margin: 10px 0 5px 0;
+      }
+      h5 {
+        margin: 0;
+        margin-bottom: 50px;
+        font-style: italic;
+      }
+    }
+  }
+
+  footer {
+    margin-top: 50px;
+    border-top: 10px dotted #900;
+    padding-top: 10px;
+    font-size: 0.9em;
+    color: #666;
+
+    .choix-langue {
+      span {
+        padding: 0 5px;
+        cursor: pointer;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
